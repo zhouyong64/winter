@@ -1,5 +1,12 @@
 # <center> Audio Demos </center>
 
+### Speaking Voice Conversion
+
+| Source | reference | result1 | result2 | result3 |
+| :--- | :--- | :--- | :--- |
+| 1 <audio src="vc/src/034.wav" controls preload></audio> | <audio src="vc/ref/034.wav" controls preload></audio> | <audio src="vc/res1/034.wav" controls preload></audio> | <audio src="vc/res2/034.wav" controls preload></audio> | <audio src="vc/res3/034.wav" controls preload></audio> |
+| --- | --- | --- |
+
 ### Target speech reference samples from LJ-Speech.
 
 | Reference sample | <audio src="CD_lj/ref/LJ002-0271.wav" controls preload></audio> | <audio src="CD_lj/ref/LJ010-0295.wav" controls preload></audio> | <audio src="CD_lj/ref/LJ031-0224.wav" controls preload></audio> | <audio src="CD_lj/ref/LJ028-0335.wav" controls preload></audio> |
@@ -14,7 +21,7 @@
 
 ### Female source singer
 
-| Source sample from ADIZ (NUS-48E) | <audio src="ID_CL/src/ADIZ_18.wav" controls preload></audio> |
+| Source sample | <audio src="ID_CL/src/ADIZ_18.wav" controls preload></audio> |
 | reference | result1 | result2 | 
 | :--- | :--- | :--- |
 | 5 <audio src="ID_CL/ref/JLEE_11.wav" controls preload></audio> | <audio src="ID_CL/one/ADIZ_18.npy_to_JLEE.wav" controls preload></audio> | <audio src="ID_CL/res2/ADIZ_18_to_JLEE_11.wav" controls preload></audio> |
