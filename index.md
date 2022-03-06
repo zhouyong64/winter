@@ -2,17 +2,18 @@
 
 ### Speaking Voice Conversion (Unseen Speakers)
 
-| Source | reference | result1 | result2 | result3 |
+| Source | reference | resultA | resultB | resultC |
 | :--- | :--- | :--- | :--- |
-| 1 <audio src="vc/src/034.wav" controls preload></audio> | <audio src="vc/ref/034.wav" controls preload></audio> | 1 result1 <audio src="vc/res1/034.wav" controls preload></audio> | 1 result2 <audio src="vc/res2/034.wav" controls preload></audio> | 1 result3 <audio src="vc/res3/034.wav" controls preload></audio> |
-| 2 <audio src="vc/src/008.wav" controls preload></audio> | <audio src="vc/ref/008.wav" controls preload></audio> | 2 result1 <audio src="vc/res1/008.wav" controls preload></audio> | 2 result2 <audio src="vc/res2/008.wav" controls preload></audio> | 2 result3 <audio src="vc/res3/008.wav" controls preload></audio> |
+| 1 <audio src="vc/src/034.wav" controls preload></audio> | 2 <audio src="vc/ref/034.wav" controls preload></audio> | 1 resultA <audio src="vc/res1/034.wav" controls preload></audio> | 1 resultB <audio src="vc/res2/034.wav" controls preload></audio> | 1 resultC <audio src="vc/res3/034.wav" controls preload></audio> |
+| 2 <audio src="vc/src/008.wav" controls preload></audio> | 2 <audio src="vc/ref/008.wav" controls preload></audio> | 2 resultA <audio src="vc/res1/008.wav" controls preload></audio> | 2 resultB <audio src="vc/res2/008.wav" controls preload></audio> | 2 resultC <audio src="vc/res3/008.wav" controls preload></audio> |
+| 3 <audio src="vc/src/026.wav" controls preload></audio> | 3 <audio src="vc/ref/026.wav" controls preload></audio> | 3 resultA <audio src="vc/res1/026.wav" controls preload></audio> | 3 resultB <audio src="vc/res2/026.wav" controls preload></audio> | 3 resultC <audio src="vc/res3/026.wav" controls preload></audio> |
 
 | --- | --- | --- |
 
 ### Target speech reference samples from LJ-Speech.
 
 | Reference sample | <audio src="CD_lj/ref/LJ002-0271.wav" controls preload></audio> | <audio src="CD_lj/ref/LJ010-0295.wav" controls preload></audio> | <audio src="CD_lj/ref/LJ031-0224.wav" controls preload></audio> | <audio src="CD_lj/ref/LJ028-0335.wav" controls preload></audio> |
-| Source | result1 | result2 | 
+| Source | resultA | resultB | 
 | :--- | :--- | :--- | :--- |
 | 1 <audio src="CD_lj/src/JLEE_11.wav" controls preload></audio> | <audio src="CD_lj/one/JLEE_11.npy_to_lj.wav" controls preload></audio> | <audio src="CD_lj/res2/JLEE_11.wav" controls preload></audio> |
 | 2 <audio src="CD_lj/src/JTAN.wav" controls preload></audio> | <audio src="CD_lj/one/JTAN_07.npy_to_lj.wav" controls preload></audio> | <audio src="CD_lj/res2/JTAN.wav" controls preload></audio> |
@@ -24,7 +25,7 @@
 ### Female source singer
 
 | Source sample | <audio src="ID_CL/src/ADIZ_18.wav" controls preload></audio> |
-| reference | result1 | result2 | 
+| reference | resultA | resultB | 
 | :--- | :--- | :--- |
 | 5 <audio src="ID_CL/ref/JLEE_11.wav" controls preload></audio> | <audio src="ID_CL/one/ADIZ_18.npy_to_JLEE.wav" controls preload></audio> | <audio src="ID_CL/res2/ADIZ_18_to_JLEE_11.wav" controls preload></audio> |
 | 6 <audio src="ID_CL/ref/JTAN_07.wav" controls preload></audio> | <audio src="ID_CL/one/ADIZ_18.npy_to_JTAN.wav" controls preload></audio> | <audio src="ID_CL/res2/ADIZ_18_to_JTAN_07.wav" controls preload></audio> |
