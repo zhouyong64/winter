@@ -17,7 +17,7 @@
 
 | --- | --- | --- |
 
-### Target speech reference samples from LJ-Speech.
+### Singing Voice Conversion to LJSpeech speaker
 
 | Reference sample | <audio src="CD_lj/ref/LJ002-0271.wav" controls preload></audio> | <audio src="CD_lj/ref/LJ010-0295.wav" controls preload></audio> | <audio src="CD_lj/ref/LJ031-0224.wav" controls preload></audio> | <audio src="CD_lj/ref/LJ028-0335.wav" controls preload></audio> |
 | Source | resultA | resultB | 
@@ -29,7 +29,7 @@
 | --- | --- | --- |
 
 
-### Female source singer
+### singing Voice Conversion
 
 | Source sample | <audio src="ID_CL/src/ADIZ_18.wav" controls preload></audio> |
 | reference | resultA | resultB | 
