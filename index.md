@@ -4,7 +4,9 @@
 
 | Source | reference | result1 | result2 | result3 |
 | :--- | :--- | :--- | :--- |
-| 1 <audio src="vc/src/034.wav" controls preload></audio> | <audio src="vc/ref/034.wav" controls preload></audio> | result1 <audio src="vc/res1/034.wav" controls preload></audio> | result2 <audio src="vc/res2/034.wav" controls preload></audio> | result3 <audio src="vc/res3/034.wav" controls preload></audio> |
+| 1 <audio src="vc/src/034.wav" controls preload></audio> | <audio src="vc/ref/034.wav" controls preload></audio> | 1 result1 <audio src="vc/res1/034.wav" controls preload></audio> | 1 result2 <audio src="vc/res2/034.wav" controls preload></audio> | 1 result3 <audio src="vc/res3/034.wav" controls preload></audio> |
+| 2 <audio src="vc/src/008.wav" controls preload></audio> | <audio src="vc/ref/008.wav" controls preload></audio> | 2 result1 <audio src="vc/res1/008.wav" controls preload></audio> | 2 result2 <audio src="vc/res2/008.wav" controls preload></audio> | 2 result3 <audio src="vc/res3/008.wav" controls preload></audio> |
+
 | --- | --- | --- |
 
 ### Target speech reference samples from LJ-Speech.
